@@ -1,0 +1,36 @@
+{
+  "name": "multi-ai-chat",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "dev:server": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5173",
+    "test:unit": "vitest",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "pinia": "^2.1.7",
+    "recordrtc": "^5.6.2",
+    "socket.io-client": "^4.7.4",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "prettier": "^3.1.1",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
